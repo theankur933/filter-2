@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.kjtab-boxes{
+    display: flex;
+}
+
+.kjtab-boxes li{
+    list-style-type: none;
+    margin: 10px 0 0 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.kjtab-boxes li:hover{
+    background-color:gray;
+    color: white;
+    border: none;
+}
+
+#list ul{
+    margin-left: 6%;
+    margin-top: 2%;
+    line-height: 2;
+    list-style-type: none;
+}
